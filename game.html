@@ -31,6 +31,7 @@ MMATTOS83782@uat.edu
     </h2>
     </center>
     <u>Rules for craps</u><br>
+    <!--the ol tag is used to define a list and the li tags are used to number each item in the list-->
     <ol>
         <li>Roll 2 dice</li>
         <li>add up to 7 or 11, you lose</li>
@@ -41,11 +42,15 @@ MMATTOS83782@uat.edu
     <h2>Step on up and try your hand at craps, the best time this side of Sanctuary</h2>
     <br>
     <br>
+    <!--The div element and id tags are used to define each result under an ID tag that we can later use the function findElementbyID in our javascript code page to then call upon those elements
+    in the code line to set the results from the code page into the html page-->
     Die 1 results: <div id="die1Res">Press Play Craps to start game</div><br>
     Die 2 results: <div id="die2Res">Press Play Craps to start game</div><br>
     Sum results: <div id="sumRes">Press Play Craps to start game</div><br>
     Game results: <div id="gameRes">Press Play Craps to start game</div><br>
     <br>
+    <!--The button tag creates a visual button on our webpage along with the onclick allowing us to actually click the button and attaching it to the playcraps function created in 
+        the js code page-->
     <button onclick="playCraps();">Play Craps</button>
 
     <footer>
